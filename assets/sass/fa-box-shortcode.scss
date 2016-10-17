@@ -1,0 +1,239 @@
+@import "variables/variables-color";
+
+/*--------------------------------------------------------------
+## Shortcode - Box
+
+## Shortcode Box Colors
+# default - .fabs-box
+# black
+# - black-light
+# - black-dark
+# blue
+# - blue-light
+# - blue-dark
+# green
+# - green-light
+# - green-dark
+# orange
+# - orange-light
+# - orange-dark
+# pink
+# - pink-light
+# - pink-dark
+# purple
+# - purple-light
+# - purple-dark
+# red
+# red-light
+# red-dark
+# yellow
+# yellow-light
+# yellow-dark
+--------------------------------------------------------------*/
+
+.fabs-shortcode-box {
+  margin-bottom: 1.5em;
+
+  a {
+    text-decoration: none;
+  }
+
+  .fabs-box {
+    background: $color__background-default;
+    border: 1px solid $color__border-default;
+    border-left: 9px solid $color__border-default;
+    color: $color__content-default;
+
+    height:auto;
+    line-height: 2em;
+    padding: 1em;
+    width: 100%;
+
+    span {
+      float: left;
+      font-family: 'FontAwesome';
+      font-size: 1.8em;
+      margin-right: 0.3em;
+      position: relative;
+      top: 2px;
+    }
+
+    // Black Color
+    &.black {
+      background: $color__background-black;
+      border: 1px solid $color__border-black;
+      border-left: 9px solid $color__border-black;
+      color: $color__content-black;
+
+      &-light {
+        background: lighten( $color__background-black, 20% );
+        border: 1px solid lighten( $color__border-black, 20% );
+        border-left: 9px solid lighten( $color__border-black, 20% );
+        color: $color__content-black;
+      }
+
+      &-dark {
+        background: darken( $color__background-black, 20% );
+        border: 1px solid darken( $color__border-black, 20% );
+        border-left: 9px solid darken( $color__border-black, 20% );
+        color: $color__content-black;
+      }
+    }
+
+    // Blue Color
+    &.blue {
+      background: $color__background-blue;
+      border: 1px solid $color__border-blue;
+      border-left: 9px solid $color__border-blue;
+      color: $color__content-blue;
+
+      &-light {
+        background: lighten( $color__background-blue, 20% );
+        border: 1px solid lighten( $color__border-blue, 20% );
+        border-left: 9px solid lighten( $color__border-blue, 20% );
+        color: $color__content-blue;
+      }
+
+      &-dark {
+        background: darken( $color__background-blue, 20% );
+        border: 1px solid darken( $color__border-blue, 20% );
+        border-left: 9px solid darken( $color__border-blue, 20% );
+        color: $color__content-blue;
+      }
+    }
+
+    // Green Color
+    &.green {
+      background: $color__background-green;
+      border: 1px solid $color__border-green;
+      border-left: 9px solid $color__border-green;
+      color: $color__content-green;
+
+      &-light {
+        background: lighten( $color__background-green, 20% );
+        border: 1px solid lighten( $color__border-green, 20% );
+        border-left: 9px solid lighten( $color__border-green, 20% );
+        color: darken( $color__content-green, 80% );
+      }
+
+      &.-dark {
+        background: darken( $color__background-green, 20% );
+        border: 1px solid darken( $color__border-green, 20% );
+        border-left: 9px solid darken( $color__border-green, 20% );
+        color: $color__content-green;
+      }
+    }
+
+    // Orange Color
+    &.orange {
+      background: $color__background-orange;
+      border: 1px solid $color__border-orange;
+      border-left: 9px solid $color__border-orange;
+      color: $color__content-orange;
+
+      &-light {
+        background: lighten( $color__background-orange, 20% );;
+        border: 1px solid lighten( $color__border-orange, 20% );;
+        border-left: 9px solid lighten( $color__border-orange, 20% );;
+        color: darken( $color__content-orange, 80% );
+      }
+
+      &-dark {
+        background: darken( $color__background-orange, 20% );;
+        border: 1px solid darken( $color__border-orange, 20% );;
+        border-left: 9px solid darken( $color__border-orange, 20% );;
+        color: $color__content-orange;
+      }
+    }
+
+    // Pink Color
+    &.pink {
+      background: $color__background-pink;
+      border: 1px solid $color__border-pink;
+      border-left: 9px solid $color__border-pink;
+      color: $color__content-pink;
+
+      &-light {
+        background: lighten( $color__background-pink, 20% );;
+        border: 1px solid lighten( $color__border-pink, 20% );;
+        border-left: 9px solid lighten( $color__border-pink, 20% );;
+        color: $color__content-pink;
+      }
+
+      &-dark {
+        background: darken( $color__background-pink, 20% );
+        border: 1px solid darken( $color__border-pink, 20% );
+        border-left: 9px solid darken( $color__border-pink, 20% );
+        color: $color__content-pink;
+      }
+    }
+
+    // Purple Color
+    &.purple {
+      background: $color__background-purple;
+      border: 1px solid $color__border-purple;
+      border-left: 9px solid $color__border-purple;
+      color: $color__content-pink;
+
+      &-light {
+        background: lighten( $color__background-purple, 20% );;
+        border: 1px solid lighten( $color__border-purple, 20% );;
+        border-left: 9px solid lighten( $color__border-purple, 20% );;
+        color: $color__content-pink;
+      }
+
+      &-dark {
+        background: darken( $color__background-purple, 20% );
+        border: 1px solid darken( $color__border-purple, 20% );
+        border-left: 9px solid darken( $color__border-purple, 20% );
+        color: $color__content-pink;
+      }
+    }
+
+    // Red Color
+    &.red {
+      background: $color__background-red;
+  		border: 1px solid $color__border-red;
+  		border-left: 9px solid $color__border-red;
+      color: $color__content-red;
+
+      &-light {
+        background: lighten( $color__background-red, 15% );
+        border: 1px solid lighten( $color__border-red, 10% );
+        border-left: 9px solid lighten( $color__border-red, 10% );
+        color: $color__content-red;
+      }
+
+      &-dark {
+        background: darken( $color__background-red, 20% );
+    		border: 1px solid darken( $color__border-red, 20% );
+    		border-left: 9px solid darken( $color__border-red, 20% );
+        color: $color__content-red;
+      }
+    }
+
+    // Yellow Shortcode
+    &.yellow {
+      background: $color__background-yellow;
+      border: 1px solid $color__border-yellow;
+      border-left: 9px solid $color__border-yellow;
+      color: $color__content-yellow;
+
+      &-light {
+        background: lighten( $color__background-yellow, 20% );
+        border: 1px solid lighten( $color__border-yellow, 20% );
+        border-left: 9px solid lighten( $color__border-yellow, 20% );
+        color: $color__content-yellow;
+      }
+
+      &-dark {
+        background: darken( $color__background-yellow, 20% );
+        border: 1px solid darken( $color__border-yellow, 20% );
+        border-left: 9px solid darken( $color__border-yellow, 20% );
+        color: $color__content-yellow;
+      }
+    }
+
+  } // END .box
+
+} // END .shortcode-box

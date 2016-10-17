@@ -1,18 +1,27 @@
-# Font Awesome Box Shortcode
+=== Font Awesome Box Shortcode ===
+Contributors: stuartduff
+Tags: shortcode, shortcodes, info boxes, infobox, feature box, font icon, font-awesome, fontawesome, icon font, icons
+Requires at least: 4.6
+Tested up to: 4.6.1
+Stable tag: 1.0.0
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
 The Font Awesome Box Shortcode plugin adds slim information box style shortcodes to your WordPress site and which supports displaying any of the Font Awesome Icons.
 
-## Installation
+== Description ==
 
-1. Download the plugin from WordPress.org [Font Awesome Box Shortcode](https://wordpress.org/plugins/font-awesome-box-shortcode/).
-2. Goto WordPress > Appearance > Plugins > Add New.
-3. Click Upload Plugin and Choose File, then select the plugin's .zip file. Click Install Now.
-4. Click Activate to use your new plugin right away.
+The Font Awesome Box Shortcode plugin adds slim information box style shortcodes to your WordPress site and which supports displaying any of the Font Awesome Icons.
 
-## Minimum Requirements
+See the FAQ page for useage instructions.
+
+== Minimum Requirements ==
 
 For this extension to function [WordPress](https://wordpress.org/) must be installed.
 
-## Usage Instructions
+## FAQ
+
+> How do I use the shortcodes.
 
 To use the plugin insert the shortcode below into your WordPress post or page content area.
 
@@ -20,7 +29,7 @@ To use the plugin insert the shortcode below into your WordPress post or page co
 [box icon="fa-wordpress" color="blue" url="https://wordpress.org"]Visit WordPress.org[/box]
 ```
 
-The shortcode accepts three parameters of `icon=""`, `color=""`, `url=""` which are explained below.
+The shortcode accepts two parameters of `icon=""` and `url=""` which are explained below.
 
 The `icon=""` parameter will accept any Font Awesome icon code which looks like this `fa-warning` as an example
 
@@ -32,7 +41,6 @@ The `color=""` parameter allows you to choose one of the predefined colors liste
 
 Also don't forget to add some content between the shortcode containers too!
 
-## FAQ
 
 > How can I disable the plugins default awesome stylesheet as my theme is loading it's own?
 
@@ -44,7 +52,7 @@ If your existing loaded version of Font Awesome has been enqueued under a differ
 
 https://gist.github.com/stuartduff/4c0c21ff924a013db5d7a1a66910b33b
 
-## Changelog
+== Changelog ==
 
-**1.0.0 - 15/10/16**
+= 1.0.0 - 15/10/16 =
 * Initial Release - first version of the plugin released.
