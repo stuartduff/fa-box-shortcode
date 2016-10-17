@@ -3,7 +3,7 @@ The Font Awesome Box Shortcode plugin adds slim information box style shortcodes
 
 ## Installation
 
-1. Download the plugin from WordPress.org [Font Awesome Box Shortcode](https://wordpress.org/plugins/font-awesome-box-shortcode/).
+1. Download the plugin from WordPress.org [Font Awesome Box Shortcode](https://wordpress.org/plugins/fa-box-shortcode/).
 2. Goto WordPress > Appearance > Plugins > Add New.
 3. Click Upload Plugin and Choose File, then select the plugin's .zip file. Click Install Now.
 4. Click Activate to use your new plugin right away.
@@ -28,7 +28,7 @@ For a full list of all the icons you can use within the shortcode these are avai
 
 The `url=""` parameter will accept any url internal or external url you add to it.
 
-The `color=""` parameter allows you to choose one of the predefined colors listed below
+The `color=""` parameter allows you to choose one of the predefined colors from the visual editor shortcode modal box.
 
 Also don't forget to add some content between the shortcode containers too!
 
