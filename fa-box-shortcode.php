@@ -123,8 +123,9 @@ final class FA_Box_Shortcode {
    * @return void
    */
   public function plugin_setup() {
+    global $pagenow;
 
-    if ( is_admin() ) {
+    if ( is_admin() && $pagenow == 'post.php' ) {
       add_action( 'init', array( $this, 'fabs_shortcode_button_init' ) );
     } else {
       add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_plugin_styles' ) );
