@@ -28,7 +28,7 @@ For a full list of all the icons you can use within the shortcode these are avai
 
 The `url=""` parameter will accept any url internal or external url you add to it.
 
-The `color=""` parameter allows you to choose one of the predefined colors listed below
+The `color=""` parameter allows you to choose one of the predefined colors from the visual editor shortcode modal box.
 
 Also don't forget to add some content between the shortcode containers too!
 
