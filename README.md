@@ -3,7 +3,7 @@ The Font Awesome Box Shortcode plugin adds slim information box style shortcodes
 
 ## Installation
 
-1. Download the plugin from WordPress.org [Font Awesome Box Shortcode](https://wordpress.org/plugins/font-awesome-box-shortcode/).
+1. Download the plugin from WordPress.org [Font Awesome Box Shortcode](https://wordpress.org/plugins/fa-box-shortcode/).
 2. Goto WordPress > Appearance > Plugins > Add New.
 3. Click Upload Plugin and Choose File, then select the plugin's .zip file. Click Install Now.
 4. Click Activate to use your new plugin right away.
