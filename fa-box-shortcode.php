@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name:       Font Awesome Box Shortcode
- * Plugin URI:        https://wordpress.org/plugins/fa-box-shortcode
- * Description:       This plugin adds some info box shortcodes which use Font Awesome icons and you can add to your post or page content.
+ * Plugin URI:        https://wordpress.org/plugins/fa-box-shortcode/
+ * Description:       The Font Awesome box shortcode plugin adds slim information box style shortcodes to your WordPress site which support displaying any of the Font Awesome icons.
  * Version:           1.0.0
  * Author:            Stuart Duff
  * Author URI:        http://stuartduff.com

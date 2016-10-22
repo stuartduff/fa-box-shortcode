@@ -1,5 +1,5 @@
 # Font Awesome Box Shortcode
-The Font Awesome Box Shortcode plugin adds slim information box style shortcodes to your WordPress site and which supports displaying any of the Font Awesome Icons.
+The Font Awesome box shortcode plugin adds slim information box style shortcodes to your WordPress site which support displaying any of the Font Awesome icons.
 
 ## Installation
 
@@ -13,6 +13,8 @@ The Font Awesome Box Shortcode plugin adds slim information box style shortcodes
 For this extension to function [WordPress](https://wordpress.org/) must be installed.
 
 ## Usage Instructions
+
+From the WordPress visual editor you can add a shortcode via the box shortcode icon.
 
 To use the plugin insert the shortcode below into your WordPress post or page content area.
 

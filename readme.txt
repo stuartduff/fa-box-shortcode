@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-The Font Awesome Box Shortcode plugin adds slim information box style shortcodes to your WordPress site and which supports displaying any of the Font Awesome Icons.
+The Font Awesome box shortcode plugin adds slim information box style shortcodes to your WordPress site which support displaying any of the Font Awesome icons.
 
 == Description ==
 
@@ -22,6 +22,8 @@ For this extension to function [WordPress](https://wordpress.org/) must be insta
 ## FAQ
 
 > How do I use the shortcodes.
+
+From the WordPress visual editor you can add a shortcode via the box shortcode icon.
 
 To use the plugin insert the shortcode below into your WordPress post or page content area.
 
@@ -39,10 +41,10 @@ The `url=""` parameter will accept any url internal or external url you add to i
 
 The `color=""` parameter allows you to choose one of the predefined colors listed below
 
-Also don't forget to add some content between the shortcode containers too!
+Also don't forget to add some text content between the shortcode containers too!
 
 
-> How can I disable the plugins default awesome stylesheet as my theme is loading it's own?
+> How can I disable the plugins default font awesome stylesheet as my theme is loading it's own?
 
 There is a filter inside the Font Awesome Box Shortcode plugin titled `enqueued_fabs_font_awesome_filter` which you can use to specify your themes enqueued version of Font Awesome which will then disable the plugin version from loading.
 
