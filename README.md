@@ -48,5 +48,8 @@ https://gist.github.com/stuartduff/4c0c21ff924a013db5d7a1a66910b33b
 
 ## Changelog
 
+**1.0.1 - 07/01/17**
+* Update - updated font awesome version to v4.7.0.
+
 **1.0.0 - 15/10/16**
 * Initial Release - first version of the plugin released.

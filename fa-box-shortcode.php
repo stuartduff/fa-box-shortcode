@@ -3,11 +3,11 @@
  * Plugin Name:       Font Awesome Box Shortcode
  * Plugin URI:        https://wordpress.org/plugins/fa-box-shortcode/
  * Description:       The Font Awesome box shortcode plugin adds slim information box style shortcodes to your WordPress site which support displaying any of the Font Awesome icons.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Stuart Duff
  * Author URI:        http://stuartduff.com
  * Requires at least: 4.6
- * Tested up to:      4.6.1
+ * Tested up to:      4.7
  *
  * Text Domain: fa-box-shortcode
  * Domain Path: /languages/
@@ -71,7 +71,7 @@ final class FA_Box_Shortcode {
     $this->token          = 'fa-box-shortcode';
     $this->plugin_url     = plugin_dir_url( __FILE__ );
     $this->plugin_path    = plugin_dir_path( __FILE__ );
-    $this->version        = '1.0.0';
+    $this->version        = '1.0.1';
 
     register_activation_hook( __FILE__, array( $this, 'install' ) );
 
@@ -155,7 +155,7 @@ final class FA_Box_Shortcode {
      * Otherwise you may have two versions of font awesome loaded.
      */
     if ( ! wp_style_is( apply_filters( 'enqueued_fabs_font_awesome_filter', 'font-awesome' ), $list = 'enqueued' ) ) {
-      wp_register_style( 'fabs-font-awesome','//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+      wp_register_style( 'fabs-font-awesome','//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
       wp_enqueue_style( 'fabs-font-awesome' );
     }
 

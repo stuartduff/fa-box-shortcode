@@ -2,8 +2,8 @@
 Contributors: stuartduff
 Tags: shortcode, shortcodes, info boxes, infobox, feature box, font icon, font-awesome, fontawesome, icon font, icons
 Requires at least: 4.6
-Tested up to: 4.6.1
-Stable tag: 1.0.0
+Tested up to: 4.7
+Stable tag: 1.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ The Font Awesome box shortcode plugin adds slim information box style shortcodes
 
 The Font Awesome Box Shortcode plugin adds slim information box style shortcodes to your WordPress site and which supports displaying any of the Font Awesome Icons.
 
-See the FAQ page for useage instructions.
+See the [Other Notes](https://wordpress.org/plugins/fa-box-shortcode/other_notes/) page for useage instructions.
 
 == Minimum Requirements ==
 
@@ -25,11 +25,11 @@ For this extension to function [WordPress](https://wordpress.org/) must be insta
 
 From the WordPress visual editor you can add a shortcode via the box shortcode icon.
 
-To use the plugin insert the shortcode below into your WordPress post or page content area.
+To use the plugin manually insert the shortcode below into your WordPress post or page content area.
 
-```
+`
 [box icon="fa-wordpress" color="blue" url="https://wordpress.org"]Visit WordPress.org[/box]
-```
+`
 
 The shortcode accepts two parameters of `icon=""` and `url=""` which are explained below.
 
@@ -55,6 +55,9 @@ If your existing loaded version of Font Awesome has been enqueued under a differ
 https://gist.github.com/stuartduff/4c0c21ff924a013db5d7a1a66910b33b
 
 == Changelog ==
+
+= 1.0.1 - 07/01/17 =
+* Update - updated font awesome version to v4.7.0.
 
 = 1.0.0 - 15/10/16 =
 * Initial Release - first version of the plugin released.
