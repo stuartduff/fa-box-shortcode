@@ -7,7 +7,7 @@
  * Author:            Stuart Duff
  * Author URI:        http://stuartduff.com
  * Requires at least: 4.6
- * Tested up to:      4.7
+ * Tested up to:      4.7.2
  *
  * Text Domain: fa-box-shortcode
  * Domain Path: /languages/

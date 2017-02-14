@@ -2,7 +2,7 @@
 Contributors: stuartduff
 Tags: shortcode, shortcodes, info boxes, infobox, feature box, font icon, font-awesome, fontawesome, icon font, icons
 Requires at least: 4.6
-Tested up to: 4.7
+Tested up to: 4.7.2
 Stable tag: 1.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -27,9 +27,9 @@ From the WordPress visual editor you can add a shortcode via the box shortcode i
 
 To use the plugin manually insert the shortcode below into your WordPress post or page content area.
 
-`
+```
 [box icon="fa-wordpress" color="blue" url="https://wordpress.org"]Visit WordPress.org[/box]
-`
+```
 
 The shortcode accepts two parameters of `icon=""` and `url=""` which are explained below.
 
@@ -56,7 +56,7 @@ https://gist.github.com/stuartduff/4c0c21ff924a013db5d7a1a66910b33b
 
 == Changelog ==
 
-= 1.0.1 - 07/01/17 =
+= 1.0.1 - 14/02/17 =
 * Update - updated font awesome version to v4.7.0.
 
 = 1.0.0 - 15/10/16 =
