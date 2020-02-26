@@ -27,9 +27,9 @@ From the WordPress visual editor you can add a shortcode via the box shortcode i
 
 To use the plugin manually insert the shortcode below into your WordPress post or page content area.
 
-```
+`
 [box icon="fa-wordpress" color="blue" url="https://wordpress.org"]Visit WordPress.org[/box]
-```
+`
 
 The shortcode accepts two parameters of `icon=""` and `url=""` which are explained below.
 
