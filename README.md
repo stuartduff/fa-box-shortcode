@@ -26,7 +26,7 @@ The shortcode accepts three parameters of `icon=""`, `color=""`, `url=""` which 
 
 The `icon=""` parameter will accept any Font Awesome icon code which looks like this `fa-warning` as an example
 
-For a full list of all the icons you can use within the shortcode these are available with the relevant codes on the [Font Awesome Cheat Sheet](http://fontawesome.io/cheatsheet/).
+For a full list of all the icons you can use within the shortcode these are available with the relevant codes on the [Font Awesome Cheat Sheet](https://fontawesome.com/v4.7.0/cheatsheet/).
 
 The `url=""` parameter will accept any url internal or external url you add to it.
 
